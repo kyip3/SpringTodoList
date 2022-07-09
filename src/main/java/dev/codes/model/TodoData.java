@@ -21,6 +21,7 @@ public class TodoData {
         addItem(new TodoItem("Third", "Third details", LocalDate.now()));
         addItem(new TodoItem("Forth", "Forth details", LocalDate.now()));
         addItem(new TodoItem("Fifth", "Fifth details", LocalDate.now()));
+        addItem(new TodoItem("New Sixth", "Sixth details", LocalDate.now()));
     }
 
     public List<TodoItem> getItems() {
