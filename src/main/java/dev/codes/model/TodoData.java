@@ -3,6 +3,7 @@ package dev.codes.model;
 import lombok.Data;
 import lombok.NonNull;
 
+import java.time.LocalDate;
 import java.util.*;
 
 @Data
@@ -15,7 +16,11 @@ public class TodoData {
     private final List<TodoItem> items = new ArrayList<>();
 
     private TodoData() {
-
+        addItem(new TodoItem("First", "First details", LocalDate.now()));
+        addItem(new TodoItem("Second", "Second details", LocalDate.now()));
+        addItem(new TodoItem("Third", "Third details", LocalDate.now()));
+        addItem(new TodoItem("Forth", "Forth details", LocalDate.now()));
+        addItem(new TodoItem("Fifth", "Fifth details", LocalDate.now()));
     }
 
     public List<TodoItem> getItems() {
