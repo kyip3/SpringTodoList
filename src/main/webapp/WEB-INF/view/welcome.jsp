@@ -6,5 +6,6 @@
 <body>
     <h1>Hello ${user}!</h1>
     <h1>${welcomeMessage}</h1>
+    <h1>${welcomeUser}</h1>
 </body>
 </html>

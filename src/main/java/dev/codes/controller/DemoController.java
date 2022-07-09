@@ -1,6 +1,9 @@
 package dev.codes.controller;
 
+import dev.codes.service.DemoService;
+import dev.codes.service.DemoServiceImpl;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -9,6 +12,17 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Slf4j
 @Controller //indication that is a web controller. for scanning request mapping annotation
 public class DemoController {
+
+    // == fields ==
+    private final DemoServiceImpl demoService;
+
+    // == constructors ==
+    @Autowired
+    public DemoController(DemoServiceImpl demoService){
+        this.demoService = demoService;
+    }
+
+    // == methods ==
 
     //http://localhost:8080/todo-list/hello
     @ResponseBody
@@ -21,6 +35,7 @@ public class DemoController {
     @GetMapping("welcome")
     public String welcome(Model model) {
 
+
         model.addAttribute("user","tim");
         log.info("model = {} ", model);
 
@@ -29,10 +44,18 @@ public class DemoController {
         return "welcome";
     }
 
+    // == model attributes ==
     @ModelAttribute("welcomeMessage")
     public String welcomeMessage(){
         log.info("Welcome message called");
-        return "Welcome to this demo application";
+        return demoService.getWelcomeMessage();
+
+    }
+
+    @ModelAttribute("welcomeUser")
+    public String welcomeUser(){
+        log.info("Welcome user called");
+        return demoService.getHelloMessage("Tim");
 
     }
 }
