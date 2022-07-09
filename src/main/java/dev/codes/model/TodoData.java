@@ -15,7 +15,7 @@ public class TodoData {
     //final to make this class immutable. this list cant be changed
     private final List<TodoItem> items = new ArrayList<>();
 
-    private TodoData() {
+    public TodoData() {
         addItem(new TodoItem("First", "First details", LocalDate.now()));
         addItem(new TodoItem("Second", "Second details", LocalDate.now()));
         addItem(new TodoItem("Third", "Third details", LocalDate.now()));
