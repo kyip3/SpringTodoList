@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e87ba876-518d-493e-922c-366437606b95" name="Changes" comment="added service later">
+    <list default="true" id="e87ba876-518d-493e-922c-366437606b95" name="Changes" comment="added @requestParam.&#10;to test:&#10;http://localhost:8080/todo-list/welcome?name=tim">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/codes/model/TodoItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/codes/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/codes/controller/DemoController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657293436676</updated>
-      <workItem from="1657293438213" duration="11271000" />
+      <workItem from="1657293438213" duration="12341000" />
     </task>
     <task id="LOCAL-00001" summary="setting up pom file">
       <created>1657294561256</created>
@@ -122,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657362257471</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added @requestParam.&#10;to test:&#10;http://localhost:8080/todo-list/welcome?name=tim">
+      <created>1657363049444</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657363049444</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,7 +151,8 @@
     <MESSAGE value="to load page:&#10;&#10;Using dispatch servlet to load mapping to view&#10;http://localhost:8080/todo-list/welcome&#10;&#10;using just controller to return a string when get request is triggered&#10;http://localhost:8080/todo-list/hello" />
     <MESSAGE value="added controller + jsp model" />
     <MESSAGE value="added service later" />
-    <option name="LAST_COMMIT_MESSAGE" value="added service later" />
+    <MESSAGE value="added @requestParam.&#10;to test:&#10;http://localhost:8080/todo-list/welcome?name=tim" />
+    <option name="LAST_COMMIT_MESSAGE" value="added @requestParam.&#10;to test:&#10;http://localhost:8080/todo-list/welcome?name=tim" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
