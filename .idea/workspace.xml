@@ -4,14 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e87ba876-518d-493e-922c-366437606b95" name="Changes" comment="added controller.&#10;created constants file">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/codes/service/TodoItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/codes/service/TodoItemServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/items_list.jsp" afterDir="false" />
+    <list default="true" id="e87ba876-518d-493e-922c-366437606b95" name="Changes" comment="added TodoItemService&#10;amended controller to use TodoItemService">
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/codes/util/AttributeNames.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/add_item.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/home.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/codes/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/codes/config/WebConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/codes/controller/TodoItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/codes/controller/TodoItemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/codes/model/TodoData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/codes/model/TodoData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/codes/util/Mappings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/codes/util/Mappings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/codes/util/ViewNames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/codes/util/ViewNames.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/items_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/items_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +47,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/yipkayan/Documents/java/spring-framework/SpringTodoList/todo-list/src/main/resources",
+    "last_opened_file_path": "/Users/yipkayan/Documents/java/spring-framework/SpringTodoList/todo-list/src/main/webapp/WEB-INF/view",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
@@ -53,6 +58,7 @@
       <recent name="dev.codes.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/view" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
@@ -98,7 +104,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657293436676</updated>
-      <workItem from="1657293438213" duration="16573000" />
+      <workItem from="1657293438213" duration="23301000" />
     </task>
     <task id="LOCAL-00001" summary="setting up pom file">
       <created>1657294561256</created>
@@ -163,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657377445583</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added TodoItemService&#10;amended controller to use TodoItemService">
+      <created>1657379593671</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1657379593671</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,7 +203,8 @@
     <MESSAGE value="create todoData, also create the CRUD operator in it" />
     <MESSAGE value="added dummy data" />
     <MESSAGE value="added controller.&#10;created constants file" />
-    <option name="LAST_COMMIT_MESSAGE" value="added controller.&#10;created constants file" />
+    <MESSAGE value="added TodoItemService&#10;amended controller to use TodoItemService" />
+    <option name="LAST_COMMIT_MESSAGE" value="added TodoItemService&#10;amended controller to use TodoItemService" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
