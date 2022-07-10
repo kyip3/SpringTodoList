@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e87ba876-518d-493e-922c-366437606b95" name="Changes" comment="added TodoItemService&#10;amended controller to use TodoItemService">
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/codes/util/AttributeNames.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/add_item.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/home.jsp" afterDir="false" />
+    <list default="true" id="e87ba876-518d-493e-922c-366437606b95" name="Changes" comment="added delete function in controller">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/view_item.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/codes/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/codes/config/WebConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/codes/controller/TodoItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/codes/controller/TodoItemController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/codes/util/Mappings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/codes/util/Mappings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/codes/util/ViewNames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/codes/util/ViewNames.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/items_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/items_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +100,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657293436676</updated>
-      <workItem from="1657293438213" duration="23301000" />
+      <workItem from="1657293438213" duration="26564000" />
     </task>
     <task id="LOCAL-00001" summary="setting up pom file">
       <created>1657294561256</created>
@@ -176,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657379593671</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="added delete function in controller">
+      <created>1657440817514</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1657440817514</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,7 +207,8 @@
     <MESSAGE value="added dummy data" />
     <MESSAGE value="added controller.&#10;created constants file" />
     <MESSAGE value="added TodoItemService&#10;amended controller to use TodoItemService" />
-    <option name="LAST_COMMIT_MESSAGE" value="added TodoItemService&#10;amended controller to use TodoItemService" />
+    <MESSAGE value="added delete function in controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="added delete function in controller" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
